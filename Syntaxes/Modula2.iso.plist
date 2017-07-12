@@ -133,9 +133,9 @@
 			<key>name</key>
 			<string>comment.block.pragma</string>
 			<key>begin</key>
-			<string><*</string>
+			<string>&lt;*</string>
 			<key>end</key>
-			<string>*></string>
+			<string>*&gt;</string>
 		</dict>
 		<dict>
 			<key>name</key>
