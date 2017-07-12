@@ -10,12 +10,6 @@
 	<string>Support for the &lt;a href="https://en.wikipedia.org/wiki/Modula-2"&gt;Modula-2&lt;/a&gt; programming language.</string>
 	<key>name</key>
 	<string>Modula-2</string>
-	<key>ordering</key>
-	<array>
-		<string></string>
-		<string></string>
-		<string></string>
-	</array>
 	<key>uuid</key>
 	<string>4AD6B8D5-7923-4A67-A6FC-AEE18D0541FF</string>
 </dict>
