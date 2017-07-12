@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>PIM Modula-2</string>
+    <string>Modula-2 PIM</string>
 	<key>scopeName</key>
 	<string>source.modula2.pim</string>
 	<key>fileTypes</key>

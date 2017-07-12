@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>ISO Modula-2</string>
+    <string>Modula-2 ISO</string>
 	<key>scopeName</key>
 	<string>source.modula2.iso</string>
 	<key>fileTypes</key>
