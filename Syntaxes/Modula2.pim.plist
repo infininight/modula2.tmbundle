@@ -107,33 +107,33 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(*!</string>
+			<string>\(\*!</string>
 			<key>end</key>
-			<string>*)</string>
+			<string>\*\)</string>
 			<key>name</key>
 			<string>comment.block.dialecttag</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(*?</string>
+			<string>\(\*\?</string>
 			<key>end</key>
-			<string>*)</string>
+			<string>\*\)</string>
 			<key>name</key>
 			<string>comment.block.preprocessor</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(*$</string>
+			<string>\(\*\$</string>
 			<key>end</key>
-			<string>*)</string>
+			<string>\*\)</string>
 			<key>name</key>
 			<string>comment.block.pragma</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(*[^!\?$]</string>
+			<string>\(\*[^!\?$]</string>
 			<key>end</key>
-			<string>*)</string>
+			<string>\*\)</string>
 			<key>name</key>
 			<string>comment.block.untitled</string>
 		</dict>
