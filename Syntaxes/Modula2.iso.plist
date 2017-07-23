@@ -35,25 +35,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-7]{1,3}C\b</string>
+			<string>\b[0-7]{1,3}C\b</string>
 			<key>name</key>
 			<string>constant.numeric.character</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-7]+B\b</string>
+			<string>\b[0-7]+B\b</string>
 			<key>name</key>
 			<string>constant.numeric.base8</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-9]+(.[0-9]+([eE][+-]?[0-9]+)?)?</string>
+			<string>\b[0-9]+(.[0-9]+([eE][+-]?[0-9]+)?)?\b</string>
 			<key>name</key>
 			<string>constant.numeric.base10</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-9][0-9A-F]*H\b</string>
+			<string>\b[0-9][0-9A-F]*H\b</string>
 			<key>name</key>
 			<string>constant.numeric.base16</string>
 		</dict>
