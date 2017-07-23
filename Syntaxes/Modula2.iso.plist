@@ -6,11 +6,11 @@
 	<array>
 		<string>.def</string>
 		<string>.mod</string>
-		<string>keyEquivalent</string>
-		<string>^~M</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^[:blank:]*(*!m2iso(+[a-z]+)?*).*</string>
+	<key>keyEquivalent</key>
+	<string>^~M</string>
 	<key>name</key>
 	<string>Modula-2 ISO</string>
 	<key>patterns</key>
