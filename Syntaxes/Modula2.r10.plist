@@ -8,7 +8,7 @@
 		<string>.mod</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>^[:blank:]*(*!m2r10(+[a-z]+)?*).*</string>
+	<string>^[ \t]*\(\*!m2r10(\+[a-z]+)?\*\)</string>
 	<key>keyEquivalent</key>
 	<string>^~M</string>
 	<key>name</key>
