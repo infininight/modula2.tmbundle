@@ -162,32 +162,96 @@
 		<dict>
 			<key>begin</key>
 			<string>\(\*!</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.modula2</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\*\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>comment.block.dialecttag</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>\(\*\?</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.modula2</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\*\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>comment.block.preprocessor</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>\(\*\$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.modula2</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\*\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>comment.block.pragma</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>\(\*[^!\?$]</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.modula2</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\*\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>comment.block.untitled</string>
 		</dict>
