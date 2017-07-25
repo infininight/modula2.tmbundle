@@ -100,16 +100,52 @@
 			<string>support.function.nonpervasive</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>'[^']*'</string>
+			<key>begin</key>
+			<string>'(?=[^']*')</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.modula2</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>string.quoted.single</string>
+			<string>string.quoted.single.modula2</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>"[^"]*"</string>
+			<key>begin</key>
+			<string>"(?=[^"]*")</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.modula2</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.modula2</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>string.quoted.double</string>
+			<string>string.quoted.double.modula2</string>
 		</dict>
 		<dict>
 			<key>begin</key>
